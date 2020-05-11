@@ -12,9 +12,16 @@
 Our method foresees two main components:
 
 - A frame-based predictor exploiting STN [1] to recognize the promising region crop in the input data.
-- The aggregaiton of the frame-based predictions through 
+- The aggregation of the frame-based predictions.
 
 ### 2.1 Frame-based Score Prediction
+
+<p align="center">
+    <img src="./imgs/stn_predictor.png"/> <br />
+    <em> 
+    Figure 2. Illustration of the architecture for frame-based score predic- tion. An STN modeled by Φstn predicts two transformations θ1 and θ2 which are applied to the input image producing two transformed versions x1 and x2 that localize pathological artifacts. The feature extractor Φcnn is applied to x1 to generate the final prediction.
+    </em>
+</p>
 
 
 
@@ -22,7 +29,14 @@ Our method foresees two main components:
 
 Here is an example of video-based predictions exploiting our aggregation strategy of frame-based predictions.
 
-<p align="left"><img width="99%" src="imgs/video_prediction.gif" /></p>
+<p align="left">
+    <img width="99%" src="imgs/video_prediction.gif" />
+    <em> 
+    Video 1. Visualization of the results of our video-based score aggregation method.
+    </em>
+
+</p>
+
 
 ## 3. Results
 
