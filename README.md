@@ -92,6 +92,14 @@ Coming soon ...
 
 Coming soon ...
 
+#### Video-based Score Prediction
+
+The video-based score predictor can be trained by running the following command inside the `video_score_predictor` directory
+
+```
+python aggregator.py --use_sord --setting=kfolds --lr=0.01 --tnorm=product --zero_score_gap=0.5 --loss=ce --epoch=30 --earlystop=last --init_neutral=0. --lr_gamma=1 --off_diagonal=min --testfile '' --expname=<experiment_name> 'data/frame_predictions.pkl' 'data/video_annotations.xlsx' 'data/video_annotations_to_video_names.xlsx' <output_path>
+```
+
 ## 6. Citation
 
 Please cite our paper if you find the work useful:
