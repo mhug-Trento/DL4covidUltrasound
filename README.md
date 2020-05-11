@@ -1,4 +1,4 @@
-# Deep learning for classification and localizationof COVID-19 markers in point-of-care lungultrasound
+# Deep learning for classification and localization of COVID-19 markers in point-of-care lungultrasound
 
 <p align="center">
     <img src="./imgs/teaser_rebuttal.png"/> <br />
@@ -7,13 +7,13 @@
     </em>
 </p>
 
-> **Deep learning for classification and localizationof COVID-19 markers in point-of-care lungultrasound**<br>
-> Subhankar Roy, Willi Menapace, Sebastiaan Oei, Ben Luijten, Enrico Fini, Cristiano Saltori, Iris Huijben,Nishith Chennakeshava, Federico Mento, Alessandro Sentelli, Emanuele Peschiera, Riccardo Trevisan,Giovanni Maschietto, Elena Torri, Riccardo Inchingolo, Andrea Smargiassi, Gino Soldati, Paolo Rota,Andrea Passerini, Ruud J.G. van Sloun, Elisa Ricci, Libertario Demi<br>
+> **Deep learning for classification and localization of COVID-19 markers in point-of-care lungultrasound**<br>
+> Subhankar Roy, Willi Menapace, Sebastiaan Oei, Ben Luijten, Enrico Fini, Cristiano Saltori, Iris Huijben, Nishith Chennakeshava, Federico Mento, Alessandro Sentelli, Emanuele Peschiera, Riccardo Trevisan, Giovanni Maschietto, Elena Torri, Riccardo Inchingolo, Andrea Smargiassi, Gino Soldati, Paolo Rota,Andrea Passerini, Ruud J.G. van Sloun, Elisa Ricci, Libertario Demi<br>
 > In IEEE Transactions on Medical Imaging.<br>
 
 > Paper: arxiv-link<br>
 
-> **Abstract:** *Deep learning (DL) has proved successful inmedical  imaging  and,  in  the  wake  of  the  recent  COVID-19 pandemic, some works have started to investigate DL-based  solutions  for  the  assisted  diagnosis  of  lung  dis-eases. While existing works focus on CT scans, this paperstudies  the  application  of  DL  techniques  for  the  analysisof  lung  ultrasonography  (LUS)  images.  Specifically,  wepresent  a  novel  fully-annotated  dataset  of  LUS  imagescollected from several Italian hospitals, with labels indicat-ing the degree of disease severity at a frame-level, video-level,  and  pixel-level  (segmentation  masks).  Leveragingthese data, we introduce several deep models that addressrelevant  tasks  for  the  automatic  analysis  of  LUS  images.In  particular,  we  present  a  novel  deep  network,  derivedfrom Spatial Transformer Networks, which simultaneouslypredicts  the  disease  severity  score  associated  to  a  inputframe  and  provides  localization  of  pathological  artefactsin a weakly-supervised way.  Furthermore, we introduce anew method based on uninorms for effective frame scoreaggregation  at  a  video-level.  Finally,  we  benchmark  stateof the art deep models for estimating pixel-level segmenta-tions of COVID-19 imaging biomarkers. Experiments on theproposed  dataset  demonstrate  satisfactory  results  on  allthe considered tasks, paving the way to future research onDL for the assisted diagnosis of COVID-19 from LUS data.*
+> **Abstract:** *Deep learning (DL) has proved successful inmedical  imaging  and,  in  the  wake  of  the  recent  COVID-19 pandemic, some works have started to investigate DL-based  solutions  for  the  assisted  diagnosis  of  lung  diseases. While existing works focus on CT scans, this paper studies  the  application  of  DL  techniques  for  the  analysisof  lung  ultrasonography  (LUS)  images.  Specifically,  we present  a  novel  fully-annotated  dataset  of  LUS  images collected from several Italian hospitals, with labels indicating the degree of disease severity at a frame-level, video-level,  and  pixel-level  (segmentation  masks).  Leveraging these data, we introduce several deep models that address relevant  tasks  for  the  automatic  analysis  of  LUS  images. In  particular,  we  present  a  novel  deep  network,  derived from Spatial Transformer Networks, which simultaneously predicts  the  disease  severity  score  associated  to  a  input frame  and  provides  localization  of  pathological  artefacts in a weakly-supervised way.  Furthermore, we introduce a new method based on uninorms for effective frame score aggregation  at  a  video-level.  Finally,  we  benchmark  state of the art deep models for estimating pixel-level segmentations of COVID-19 imaging biomarkers. Experiments on the proposed  dataset  demonstrate  satisfactory  results  on  all the considered tasks, paving the way to future research on DL for the assisted diagnosis of COVID-19 from LUS data.*
 
 ## 2. Proposed Methods
 
