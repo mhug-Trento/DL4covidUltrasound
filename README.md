@@ -73,10 +73,11 @@ Here is an example of video-based predictions exploiting our aggregation strateg
 
 ### 3.2 Frame-based Segmentation
 
+Results coming soon
 
 ## 4. Installation
 
-
+Coming soon ...
 
 ### Requirements
 
@@ -89,9 +90,11 @@ python -m pip install -r requirements.txt
 
 ### Evaluation
 
+Coming soon ...
 
 ### Training
 
+Coming soon ...
 
 ## 6. Manuscript
 
@@ -111,4 +114,4 @@ Please cite our paper if you find the work useful:
  
 ## 8. Acknowledgements
 
-We thanks [ProM Facility](https://polomeccatronica.it/cosa-offriamo/laboratori-prom) for their contributions.
+We thanks [ProM Facility](https://polomeccatronica.it/cosa-offriamo/laboratori-prom) for their hardware contribution.
