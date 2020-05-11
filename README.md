@@ -4,9 +4,11 @@
 
 ## 2. Proposed Methods
 
-### 2.1 Frame based classificaiton
+### 2.1 Frame based Score Prediction
 
-### 2.2 Video-based classification
+### 2.2 Video-based Score Prediction
+
+### 2.3 Frame-based Segmentation
 
 ## 3. Results
 
