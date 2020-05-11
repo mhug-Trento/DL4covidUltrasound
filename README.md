@@ -19,43 +19,17 @@
 
 Our method foresees two main components:
 
-- A frame-based predictor exploiting STN [1] to recognize the promising region crop in the input data.
-- The aggregation of the frame-based predictions.
+- A frame-based predictor exploiting a novel deep architecture based on STN [1] that provides the disease severity score and a weakly-supervised localization of pathological artefacts.
+- A video-based score predictor based on uninorms that performs aggregation of the frame-based scores.
 
 ### 2.1 Frame-based Score Prediction
 
 <p align="center">
     <img src="./imgs/stn_predictor.png" width="600"> <br />
     <em> 
-    Figure 2. Illustration of the architecture for frame-based score prediction.
+    Figure 2. Illustration of the proposed Reg-STN architecture for frame-based score prediction.
     </em>
 </p>
-
-
-And here is an example of localization obtained with our STN module.
-
-
-<p align="center">
-    <img src="./imgs/stn_loc.png" width="700"> <br />
-    <em> 
-    Figure 3. Examples of the image crops produced by the Reg-STN network.
-    </em>
-</p>
-
-
-
-### 2.2 Video-based Score Prediction
-
-Here is an example of video-based predictions exploiting our aggregation strategy of frame-based predictions.
-
-<p align="center">
-    <img width="99%" src="imgs/example_video.gif" />
-    <em> 
-    Video 1. Visualization of the results of our video-based score aggregation method.
-    </em>
-
-</p>
-
 
 ## 3. Results
 
@@ -69,6 +43,20 @@ Here is an example of video-based predictions exploiting our aggregation strateg
     </em>
 </p>
 
+<p align="center">
+    <img src="./imgs/stn_loc.png" width="700"> <br />
+    <em> 
+    Figure 3. Examples of weakly-supervised localization results of pathological artefacts produced by the Reg-STN network.
+    </em>
+</p>
+
+<p align="center">
+    <img width="99%" src="imgs/example_video.gif" />
+    <em> 
+    Video 1. Examples of frame-based predictions produced by our proposed Reg-STN model.
+    </em>
+
+</p>
 
 ### 3.2 Video-based Score Prediction
 
