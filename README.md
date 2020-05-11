@@ -40,7 +40,25 @@ Here is an example of video-based predictions exploiting our aggregation strateg
 
 ## 3. Results
 
+### 3.1 Frame-based Score Prediction
 
+<p align="center">
+    <img src="./imgs/frame_results.png" width="600"> <br />
+    <em> 
+    Table 1. F1 scores (%) for the frame-based classification under different evaluation settings explained in the paper.
+    Best and second best F1 scores (%) are in bold and underlines, respectively.
+    </em>
+</p>
+
+
+### 3.2 Video-based Score Prediction
+
+<p align="center">
+    <img src="./imgs/video_results.png" width="600"> <br />
+    <em> 
+    Table 2. Mean and standard deviation of weighted F1 score, precision and recall for the proposed video-based classification method and baselines.
+    </em>
+</p>
 
 ## 4. Installation
 
@@ -48,15 +66,19 @@ Here is an example of video-based predictions exploiting our aggregation strateg
 
 ### Requirements
 
+## 5. Usage
+
 ### Evaluation
 
-### Train your own model
 
-## 5. Manuscript
+### Training
+
+
+## 6. Manuscript
 
 The pre-print copy of our manuscript can be found at [ppp]()
 
-## 6. Citation
+## 7. Citation
 
 Please cite our paper if you find the work useful:
 
@@ -68,6 +90,6 @@ Please cite our paper if you find the work useful:
     }
 
  
-## 7. Acknowledgements
+## 8. Acknowledgements
 
 We thanks [yyy]() for their contributions.
