@@ -11,7 +11,7 @@
 
 ## 2. Proposed Methods
 
-### 2.1 Frame based Score Prediction
+### 2.1 Frame-based Score Prediction
 
 ### 2.2 Video-based Score Prediction
 
