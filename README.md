@@ -30,7 +30,7 @@ Our method foresees two main components:
 Here is an example of video-based predictions exploiting our aggregation strategy of frame-based predictions.
 
 <p align="center">
-    <img width="99%" src="imgs/video_prediction.gif" />
+    <img width="99%" src="imgs/example_video.gif" />
     <em> 
     Video 1. Visualization of the results of our video-based score aggregation method.
     </em>
@@ -59,6 +59,9 @@ Here is an example of video-based predictions exploiting our aggregation strateg
     Table 2. Mean and standard deviation of weighted F1 score, precision and recall for the proposed video-based classification method and baselines.
     </em>
 </p>
+
+### 3.2 Frame-based Segmentation
+
 
 ## 4. Installation
 
