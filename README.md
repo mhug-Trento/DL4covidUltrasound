@@ -106,7 +106,7 @@ Please cite our paper if you find the work useful:
  
 ## 7. Acknowledgements
 
-We thanks [ProM Facility](https://polomeccatronica.it/cosa-offriamo/laboratori-prom) for their hardware contribution.
+We thank the Caritro Deep Learning Lab of [ProM Facility](https://promfacility.eu/#/) who made available their GPUs for the current work. We also thank [Fondazione VRT](https://www.fondazionevrt.it/) for financial support [COVID-19 CALL 2020 Grant #1]
 
 ## 8. License
 
