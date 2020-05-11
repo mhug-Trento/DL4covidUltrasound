@@ -17,7 +17,7 @@ Our method foresees two main components:
 ### 2.1 Frame-based Score Prediction
 
 <p align="center">
-    <img src="./imgs/stn_predictor.png" width="200" height="200"> <br />
+    <img src="./imgs/stn_predictor.png" width="500"> <br />
     <em> 
     Figure 2. Illustration of the architecture for frame-based score predic- tion. An STN modeled by Φstn predicts two transformations θ1 and θ2 which are applied to the input image producing two transformed versions x1 and x2 that localize pathological artifacts. The feature extractor Φcnn is applied to x1 to generate the final prediction.
     </em>
