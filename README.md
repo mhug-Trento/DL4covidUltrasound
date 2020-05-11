@@ -54,7 +54,7 @@ Here is an example of video-based predictions exploiting our aggregation strateg
 ### 3.2 Video-based Score Prediction
 
 <p align="center">
-    <img src="./imgs/video_results.png" width="500"> <br />
+    <img src="./imgs/video_results.png" width="400"> <br />
     <em> 
     Table 2. Mean and standard deviation of weighted F1 score, precision and recall for the proposed video-based classification method and baselines.
     </em>
