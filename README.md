@@ -7,23 +7,53 @@
     </em>
 </p>
 
-## 1. Introduction
-
 ## 2. Proposed Methods
+
+Our method foresees two main components:
+
+- A frame-based predictor exploiting STN [1] to recognize the promising region crop in the input data.
+- The aggregaiton of the frame-based predictions through 
 
 ### 2.1 Frame-based Score Prediction
 
+
+
 ### 2.2 Video-based Score Prediction
 
-### 2.3 Frame-based Segmentation
+Here is an example of video-based predictions exploiting our aggregation strategy of frame-based predictions.
+
+<p align="left"><img width="99%" src="imgs/video_prediction.gif" /></p>
 
 ## 3. Results
 
-## 7. Manuscript
 
-## 8. Citation
+
+## 4. Installation
+
+
+
+### Requirements
+
+### Evaluation
+
+### Train your own model
+
+## 5. Manuscript
+
+The pre-print copy of our manuscript can be found at [ppp]()
+
+## 6. Citation
 
 Please cite our paper if you find the work useful: 
+{
+	DL4covidUltrasound,
+  	title={TTT},
+  	author={aaa},
+  	Journal = {arXiv},
+  	year={2020}
+}
 
  
- ## 9. Acknowledgements
+## 7. Acknowledgements
+
+We thanks [yyy]() for their contributions.
