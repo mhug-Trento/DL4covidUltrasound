@@ -1,7 +1,7 @@
 # DL4covidUltrasound
 
 <p align="center">
-    <img src="./imgs/teaser_rebuttal.pdf"/> <br />
+    <img src="./imgs/teaser_rebuttal.png"/> <br />
     <em> 
     Figure 1.
     </em>
