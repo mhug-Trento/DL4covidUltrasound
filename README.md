@@ -8,7 +8,7 @@
 </p>
 
 > **Deep learning for classification and localization of COVID-19 markers in point-of-care lungultrasound**<br>
-> Subhankar Roy, Willi Menapace, Sebastiaan Oei, Ben Luijten, Enrico Fini, Cristiano Saltori, Iris Huijben, Nishith Chennakeshava, Federico Mento, Alessandro Sentelli, Emanuele Peschiera, Riccardo Trevisan, Giovanni Maschietto, Elena Torri, Riccardo Inchingolo, Andrea Smargiassi, Gino Soldati, Paolo Rota,Andrea Passerini, Ruud J.G. van Sloun, Elisa Ricci, Libertario Demi<br>
+> [Subhankar Roy](https://github.com/roysubhankar), [Willi Menapace](https://github.com/willi-menapace), Sebastiaan Oei, Ben Luijten, [Enrico Fini](https://github.com/DonkeyShot21), [Cristiano Saltori](https://github.com/saltoricristiano), Iris Huijben, Nishith Chennakeshava, Federico Mento, Alessandro Sentelli, Emanuele Peschiera, Riccardo Trevisan, Giovanni Maschietto, Elena Torri, Riccardo Inchingolo, Andrea Smargiassi, Gino Soldati, [Paolo Rota](https://github.com/paolorota) ,Andrea Passerini, Ruud J.G. van Sloun, Elisa Ricci, Libertario Demi<br>
 > In IEEE Transactions on Medical Imaging.<br>
 
 > Paper: arxiv-link<br>
@@ -104,11 +104,7 @@ Coming soon ...
 
 Coming soon ...
 
-## 6. Manuscript
-
-The pre-print copy of our manuscript can be found at [paper]()
-
-## 7. Citation
+## 6. Citation
 
 Please cite our paper if you find the work useful:
 
@@ -120,6 +116,6 @@ Please cite our paper if you find the work useful:
     }
 
  
-## 8. Acknowledgements
+## 7. Acknowledgements
 
 We thanks [ProM Facility](https://polomeccatronica.it/cosa-offriamo/laboratori-prom) for their hardware contribution.
