@@ -3,7 +3,7 @@
 <p align="center">
     <img src="./imgs/teaser_rebuttal.png"/> <br />
     <em> 
-    Figure 1.
+    Figure 1. Overview of the different tasks considered in this work. Given a LUS image sequence, we propose approaches for: (orange) predictionof the disease severity score for each input frame and weakly supervised localization of pathological patterns; (pink) aggregation of frame-levelscores for producing predictions on videos; (green) estimation of segmentation masks indicating pathological artifacts.
     </em>
 </p>
 
