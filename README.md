@@ -107,3 +107,7 @@ Please cite our paper if you find the work useful:
 ## 7. Acknowledgements
 
 We thanks [ProM Facility](https://polomeccatronica.it/cosa-offriamo/laboratori-prom) for their hardware contribution.
+
+## 8. License
+
+This work is distributed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
