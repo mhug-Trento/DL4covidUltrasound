@@ -19,7 +19,18 @@ Our method foresees two main components:
 <p align="center">
     <img src="./imgs/stn_predictor.png" width="600"> <br />
     <em> 
-    Figure 2. Illustration of the architecture for frame-based score predic- tion. An STN modeled by Φstn predicts two transformations θ1 and θ2 which are applied to the input image producing two transformed versions x1 and x2 that localize pathological artifacts. The feature extractor Φcnn is applied to x1 to generate the final prediction.
+    Figure 2. Illustration of the architecture for frame-based score prediction. An STN modeled by Φstn predicts two transformations θ1 and θ2 which are applied to the input image producing two transformed versions x1 and x2 that localize pathological artifacts. The feature extractor Φcnn is applied to x1 to generate the final prediction.
+    </em>
+</p>
+
+
+And here is an example of localization obtained with our STN module.
+
+
+<p align="center">
+    <img src="./imgs/stn_loc.png" width="700"> <br />
+    <em> 
+    Figure 3. Examples of the image crops produced by the Reg-STN network.
     </em>
 </p>
 
