@@ -44,13 +44,14 @@ The pre-print copy of our manuscript can be found at [ppp]()
 
 ## 6. Citation
 
-Please cite our paper if you find the work useful: 
+Please cite our paper if you find the work useful:
+
     @article{DL4covidUltrasound,
-            title={TTT},
-            author={aaa},
-            Journal = {arXiv},
-            year={2020}
-            }
+    title={TTT},
+    author={aaa},
+    Journal = {arXiv},
+    year={2020}
+    }
 
  
 ## 7. Acknowledgements
