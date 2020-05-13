@@ -82,7 +82,10 @@ We try to minimize requirements. Assuming you are using `Python 3.7+`, you can i
 python -m pip install -r requirements.txt
 ```
 
-## 5. Usage
+## 5. Dataset
+Dataset information coming soon!
+
+## 6. Usage
 
 ### Evaluation
 
@@ -100,7 +103,7 @@ The video-based score predictor can be trained by running the following command 
 python aggregator.py --use_sord --setting=kfolds --lr=0.01 --tnorm=product --zero_score_gap=0.5 --loss=ce --epoch=30 --earlystop=last --init_neutral=0. --lr_gamma=1 --off_diagonal=min --testfile '' --expname=<experiment_name> 'data/frame_predictions.pkl' 'data/video_annotations.xlsx' 'data/video_annotations_to_video_names.xlsx' <output_path>
 ```
 
-## 6. Citation
+## 7. Citation
 
 Please cite our paper if you find the work useful:
 
@@ -112,10 +115,10 @@ Please cite our paper if you find the work useful:
     }
 
  
-## 7. Acknowledgements
+## 8. Acknowledgements
 
 We thank the Caritro Deep Learning Lab of [ProM Facility](https://promfacility.eu/#/) who made available their GPUs for the current work. We also thank [Fondazione VRT](https://www.fondazionevrt.it/) for financial support [COVID-19 CALL 2020 Grant #1]
 
-## 8. License
+## 9. License
 
 This work is distributed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
