@@ -108,9 +108,9 @@ python aggregator.py --use_sord --setting=kfolds --lr=0.01 --tnorm=product --zer
 Please cite our paper if you find the work useful:
 
     @article{DL4covidUltrasound,
-    title={TTT},
-    author={aaa},
-    Journal = {arXiv},
+    author={S. Roy and W. Menapace and S. Oei and B. Luijten and E. Fini and C. Saltori and I. Huijben and N. Chennakeshava and F. Mento and A. Sentelli and E. Peschiera and R. Trevisan and G. Maschietto and E. Torri and R. Inchingolo and A. Smargiassi and G. Soldati and P. Rota and A. Passerini and R. J. G. Van Sloun and E. Ricci and L. Demi},
+    journal={IEEE Transactions on Medical Imaging}, 
+    title={Deep learning for classification and localization of COVID-19 markers in point-of-care lung ultrasound}, 
     year={2020}
     }
 
