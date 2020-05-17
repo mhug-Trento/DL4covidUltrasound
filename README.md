@@ -89,12 +89,12 @@ Dataset information coming soon!
 1. To use the exact train-test split used in our paper, please download the folder containing the extracted frames from [this link]() and place the folder under the dataset/ folder.
 
 2. The frame-based score predictor can be trained by running the following commands from the root folder:
-   - for fixed scaling and trainable transaltion model in the paper
+- for fixed scaling and trainable translation model in the paper
 ```
 python frame-score-predictor/train.py --fixed_scale
 ```
 
-   - and for trainable scaling, rotation and translation model in the paper
+- for trainable scaling, rotation and translation model in the paper
 ```
 python frame-score-predictor/train.py
 ```
