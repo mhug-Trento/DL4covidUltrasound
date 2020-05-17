@@ -73,11 +73,9 @@ Results coming soon
 
 ## 4. Installation
 
-Coming soon ...
-
 ### Requirements
 
-We try to minimize requirements. Assuming you are using `Python 3.7+`, you can install requirements:
+The project requires `Python 3.7+`. To install the dependencies, run:
 ```
 python -m pip install -r requirements.txt
 ```
@@ -87,13 +85,19 @@ Dataset information coming soon!
 
 ## 6. Usage
 
-### Evaluation
+#### Frame-based Score Prediction
+1. To use the exact train-test split used in our paper, please download the folder containing the extracted frames from [this link]() and place the folder under the dataset/ folder.
 
-Coming soon ...
+2. The frame-based score predictor can be trained by running the following commands from the root folder:
+   - for fixed scaling and trainable transaltion model in the paper
+```
+python frame-score-predictor/train.py --fixed_scale
+```
 
-### Training
-
-Coming soon ...
+   - and for trainable scaling, rotation and translation model in the paper
+```
+python frame-score-predictor/train.py
+```
 
 #### Video-based Score Prediction
 
