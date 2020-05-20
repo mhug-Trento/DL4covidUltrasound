@@ -82,12 +82,12 @@ class UninormAggregator(nn.Module):
             neutral_00 = neutral[mask_00]   
             neutral_00_full = neutral_00.repeat(x.shape[1],1).t()     
             y[mask_00] = neutral_00 * self.tnorm(torch.div(x[mask_00], neutral_00_full))
-        mask_11 = np.logical_and(x[:,0] > neutral, x[:,1] > neutral).bool()  
+        mask_11 = np.logical_and(x[:,0] >= neutral, x[:,1] >= neutral).bool()  
         if True in mask_11: 
             neutral_11 = neutral[mask_11]
             neutral_11_full = neutral_11.repeat(x.shape[1],1).t()
             y[mask_11] = neutral_11 + (1 - neutral_11) * self.tconorm(torch.div(x[mask_11] - neutral_11_full,1 - neutral_11_full))
-        mask_xx = np.logical_xor(x[:,0] <= neutral, x[:,1] <= neutral).bool()             
+        mask_xx = np.logical_or(np.logical_and(x[:,0] > neutral, x[:,1] < neutral),np.logical_and(x[:,0] < neutral, x[:,1] > neutral)).bool()             
         if True in mask_xx:       
             y[mask_xx] = self.off_diagonal_aggregation(x[mask_xx])
         return y
