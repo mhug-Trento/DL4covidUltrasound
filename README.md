@@ -81,12 +81,12 @@ python -m pip install -r requirements.txt
 ```
 
 ## 5. Dataset
-Dataset information coming soon!
+The ICLUS dataset is available [here](https://www.disi.unitn.it/iclus).
 
 ## 6. Usage
 
 #### Frame-based Score Prediction
-1. To use the exact train-test split used in our paper, please download the ```frames``` folder containing the extracted frames from [this link]() and place the folder under the dataset/ folder.
+1. To use the exact train-test split used in our paper, please download the ```frames``` folder containing the extracted frames from [this link](https://www.disi.unitn.it/iclus) and place the folder under the dataset/ folder.
 
 2. The frame-based score predictor can be trained by running the following commands from the root folder:
 - for fixed scaling and trainable translation model in the paper
