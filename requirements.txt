@@ -2,7 +2,7 @@ torch>=1.4.0
 torchvision>=0.5.0
 opencv-python
 scikit-learn==0.22.2
-numpy==1.18.1
+numpy==1.22.0
 pandas
 tqdm
 scikit-image
